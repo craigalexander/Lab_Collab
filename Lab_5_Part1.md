@@ -49,3 +49,40 @@ associated HTML. Visit both of these in the browser. Check:
 -   The HTML looks ugly.
 
 ## Formatting the output
+
+In order to display our HTML output in GitHub, we have to specify a
+special format of output to GitHub. We can either provide the Markdown
+only file (more of which you can read about in the Happy Git with R
+notes), or change an instruction in our YAML at the top of our Markdown
+document. Simply change the output to be of the form
+`output: github_document` as shown below.
+
+``` r
+---
+title: "My Report"
+author: "Craig Alexander"
+date: "2021/06/07"
+output: github_document 
+---
+```
+
+Now save your document and commit here.
+
+Render once again using \`\`Knit HTML".
+
+If you look in the file browser, you will now see updated versions of
+your files. Commit here once again.
+
+## Push to GitHub
+
+Push the current state to GitHub. Go check this in the browser.
+
+-   Visit the HTML file and compare this to previously.
+-   You should now see your rendered document as it would appear when
+    rendered in R.
+
+## Further Work
+
+Now attempt to edit this document, including some working R code from
+previous labs and see if you can render this and commit to GitHub
+successfully.
