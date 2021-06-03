@@ -71,13 +71,13 @@ Now save your document and commit here.
 Render once again using \`\`Knit HTML".
 
 If you look in the file browser, you will now see updated versions of
-your files. Commit here once again.
+your files, including the new .md files. Commit here once again.
 
 ## Push to GitHub
 
 Push the current state to GitHub. Go check this in the browser.
 
--   Visit the HTML file and compare this to previously.
+-   Visit the .md file and compare this to the previous HTML file.
 -   You should now see your rendered document as it would appear when
     rendered in R.
 
