@@ -1,7 +1,7 @@
 Lab 5 - Collaborative Coding
 ================
 
-# Part 2 - Create a Bingo card
+# Part 3 - Create a Bingo card
 
 This example will give you practice using \`\`fork and pull" with
 Github. You can read more about this in [Chapter
