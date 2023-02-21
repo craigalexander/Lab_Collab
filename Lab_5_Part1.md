@@ -6,7 +6,7 @@ Lab 5 - Collaborative Coding
 In this part of the lab, we will write an R Markdown document and render
 it to HTML. We will look at how to keep the first Markdown file,
 figures, what to commit to Git and push to GitHub. If GitHub is the main
-hosting venue, we render directly to GitHub floavoured Markdown and
+hosting venue, we render directly to GitHub in Markdown and
 avoid the need to create HTML.
 
 ## Hello World!
@@ -14,7 +14,7 @@ avoid the need to create HTML.
 We’ll practice with RStudio’s boilerplate R Markdown document.
 
 Launch RStudio in a Project that is a Git repo that is connected to a
-GitHub repo.
+GitHub repo. (Look at sections 11-13 on Using Git & GitHub with R if you need a reminder on how to set this up).
 
 We will test our system’s ability to render the \`\`hello world" of R
 Markdown documents.
