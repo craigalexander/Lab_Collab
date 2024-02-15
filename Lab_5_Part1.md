@@ -6,7 +6,7 @@ Lab 5 - Collaborative Coding
 In this part of the lab, we will write an R Markdown document and render
 it to HTML. We will look at how to keep the first Markdown file,
 figures, what to commit to Git and push to GitHub. If GitHub is the main
-hosting venue, we render directly to GitHub in Markdown and
+hosting venue, we render directly to GitHub floavoured Markdown and
 avoid the need to create HTML.
 
 ## Hello World!
@@ -14,17 +14,17 @@ avoid the need to create HTML.
 We’ll practice with RStudio’s boilerplate R Markdown document.
 
 Launch RStudio in a Project that is a Git repo that is connected to a
-GitHub repo. (Look at sections 11-13 on Using Git & GitHub with R if you need a reminder on how to set this up).
+GitHub repo.
 
-We will test our system’s ability to render the \`\`hello world" of R
+We will test our system’s ability to render the \`\`hello world” of R
 Markdown documents.
 
-Do this: *File &gt; New File &gt; R Markdown..*
+Do this: *File \> New File \> R Markdown..*
 
--   Give the file an informative title.
--   Accept or change the default author if you wish
--   Accept the default output format of HTML
--   Click OK
+- Give the file an informative title.
+- Accept or change the default author if you wish
+- Accept the default output format of HTML
+- Click OK
 
 Save this document to a reasonable filename and location. The filename
 should end in .Rmd or .rmd. Save in the top-level of this RStudio
@@ -32,7 +32,7 @@ project and Git repository, that is also current working directory.
 
 You might want to commit here. So you can see what’s about to change.
 
-Click on \`\`Knit HTML". RStudio should display a preview of the
+Click on \`\`Knit HTML”. RStudio should display a preview of the
 resulting HTML. Also look within the files browser. You should see the
 markdown document and the resulting HTML.
 
@@ -45,8 +45,8 @@ Check your files on GitHub on the browser.
 Are the new files visible? This should be an R Markdown document and the
 associated HTML. Visit both of these in the browser. Check:
 
--   Rmd is readable, but there is no output.
--   The HTML looks ugly.
+- Rmd is readable, but there is no output.
+- The HTML looks ugly.
 
 ## Formatting the output
 
@@ -61,14 +61,14 @@ document. Simply change the output to be of the form
 ---
 title: "My Report"
 author: "Craig Alexander"
-date: "2021/06/07"
+date: "2024/02/15"
 output: github_document 
 ---
 ```
 
 Now save your document and commit here.
 
-Render once again using \`\`Knit HTML".
+Render once again using \`\`Knit HTML”.
 
 If you look in the file browser, you will now see updated versions of
 your files, including the new .md files. Commit here once again.
@@ -77,9 +77,9 @@ your files, including the new .md files. Commit here once again.
 
 Push the current state to GitHub. Go check this in the browser.
 
--   Visit the .md file and compare this to the previous HTML file.
--   You should now see your rendered document as it would appear when
-    rendered in R.
+- Visit the .md file and compare this to the previous HTML file.
+- You should now see your rendered document as it would appear when
+  rendered in R.
 
 ## Further Work
 
