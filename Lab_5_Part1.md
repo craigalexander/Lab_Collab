@@ -4,7 +4,7 @@ Lab 5 - Collaborative Coding
 # Part 1 - Run R Markdown through GitHub
 
 In this part of the lab, we will write an R Markdown document and render
-it to HTML. We will look at how to keep the first Markdown file,
+it to HTML. RMarkdown is very similar to Quarto, and is effectively the background engine to how Quarto works.  We will look at how to keep the first Markdown file,
 figures, what to commit to Git and push to GitHub. If GitHub is the main
 hosting venue, we render directly to GitHub floavoured Markdown and
 avoid the need to create HTML.
@@ -14,7 +14,7 @@ avoid the need to create HTML.
 We’ll practice with RStudio’s boilerplate R Markdown document.
 
 Launch RStudio in a Project that is a Git repo that is connected to a
-GitHub repo.
+GitHub repo. For instructions on how to connect a project to Github, see Chapter 12 of Happy Git and Github for the useR in the Week 7 sklils notes. 
 
 We will test our system’s ability to render the \`\`hello world” of R
 Markdown documents.
@@ -61,7 +61,7 @@ document. Simply change the output to be of the form
 ---
 title: "My Report"
 author: "Craig Alexander"
-date: "2024/02/15"
+date: "2025/02/20"
 output: github_document 
 ---
 ```
